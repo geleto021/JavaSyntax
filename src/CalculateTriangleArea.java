@@ -24,6 +24,7 @@ public class CalculateTriangleArea {
 			int area = Math.abs((a1*(b2-c2)+(b1*(c2-a2))+(c1*(a2-b2)))/2);
 			System.out.printf("%.3f",(float)area);
 		}
+		input.close();
 	}
 
 }
